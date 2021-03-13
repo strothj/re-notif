@@ -1,5 +1,5 @@
 {
-  "name": "redux-notifications",
+  "name": "@strothj/redux-notifications",
   "version": "4.0.1",
   "description": "Redux & React based Notifications center",
   "scripts": {
@@ -10,9 +10,9 @@
     "prepublish": "npm run lint && npm run build"
   },
   "main": "lib/index.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/indexiatech/re-notif.git"
+  "repository": "https://github.com/strothj/re-notif",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "author": "Indexia Technologies, ltd.",
   "license": "BSD-3-Clause",
